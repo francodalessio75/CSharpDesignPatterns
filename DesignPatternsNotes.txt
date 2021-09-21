@@ -1,0 +1,34 @@
+Single Responsability : Single reason to change
+Open Close : class open for extension but closed for modification
+	1.interface ISpecification with method IsSatisfied that establishes whether or not an element satisfies some particular criterias without specifying the criterias;
+	2. interface IFilter with method Filter that takes Ienumerable of elements and one Ispecification
+	
+Liskov substitution principle: by instiantiating as super class as a subclass instance the behavior must continue to be consistent
+
+Interface Segregation Principle: who implements your interface should not have functions that he doesn't need
+
+Dependency Inversion Principle : higer parts of the system should not depend on low level part of the system but it should depend on an abstraction
+una classe Persona con una proprietà nome. 
+Una enum GradoParentela con valori padre,figlio,fratello.
+Una classe Parentele con una lista privata di terne Persona,GradoParentela,persona. 
+Nella classe Parentele una metodo per assegnare un figlio ad un padre.Questo metodo va considerato come una low level API.
+A livello più alto una classe Ricerca che deve restituire tutti i figli di una data persona.
+La classe Ricerca istanzia tre persone, un padre e due figli.
+Inizializza una istanza Parentele ed effettua le assegnazioni dei figli invocando il metodo di assegnazione della classe Parentele.
+Ora la classe Ricerca vuole ottenere tutti i figli della persona padre.
+Per fare ciò ha bisogno di avere accesso alla lista di parentele privata dell'istanza della classe Parentele!!!
+Il metodo sbagliato e rendere accessibile la lista privata della classe Parentele ed iterarla nella classe questo perchè
+così facendo si rende la classe di basso livello ( Parentela ) subordinata alla classe di alto livello Ricerca, in particolare alla struttura 
+dati utilizzata nella classe di basso livello per rappresentare le parentele. Se le parentele per qualche ragione non fosero più una lista,
+ma un array od una mappa, il metodo della classe Ricerca potrebbe non funzionare più.
+Il modo giusto è creare una interfaccia Relazioni con un metodo astratto CercaFigli che stabilisce se una persona è figlio di un'altra restituendo una 
+lista di figli in base al nome del padre.
+A questo punto si può iplementare l'interfaccia nella classe Parentele e la classe di alto livello Ricerca,
+non farà altro che chiamare il metodo CercaFigli della classe parentela passando il nome del padre.
+Quindi il modo con cui la classe di alto livello Ricerca accede ai figli di una person è completametne slegato del modo con cui la classe di basso livello
+ Parentele restituisce tutti i figli di una persona in base alla lista privata di parentele al suo interno. 
+ La classe Parentele potrà miglioarare il metoto CercaFigli senza impattare sulla classe Ricerca.
+
+
+
+ 

@@ -1,0 +1,16 @@
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.AssemblyReference.cache
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.AssemblyInfo.cs
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\DesignPatterns.exe
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\DesignPatterns.deps.json
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.json
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\DesignPatterns.runtimeconfig.dev.json
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\DesignPatterns.dll
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\ref\DesignPatterns.dll
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\bin\Debug\net5.0\DesignPatterns.pdb
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.dll
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\ref\DesignPatterns.dll
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.pdb
+C:\Users\dalfra\Documents\NetBeansProjects\DOTNET\DesignPatterns\obj\Debug\net5.0\DesignPatterns.genruntimeconfig.cache

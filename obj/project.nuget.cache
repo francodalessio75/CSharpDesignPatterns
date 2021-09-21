@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sQhANOtitZXQeyEy/z2SFqQ6WUQYT4omC3Mp527ELkIDLMN8/OZVkKoff1JN279PSE/w6eqmxOD/lmB0ybpGPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dalfra\\Documents\\NetBeansProjects\\DOTNET\\DesignPatterns\\DesignPatterns.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dalfra\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
